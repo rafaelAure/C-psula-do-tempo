@@ -11,7 +11,8 @@ body{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100vh;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .about-background{
@@ -76,6 +77,38 @@ body{
     text-align: center;
     color: #fff;
 }
+
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+
+    display: flex;
+}
+
+.social-links li {
+    margin: 0px 10px;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.social-links li a:hover {
+    color: #fff;
+}
+
+.social-links li a i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+
+
 
 
 .line {
